@@ -6,7 +6,7 @@
             "version": "latest"
         }
     },
-    "postStartCommand": "rand5=$(basename $(git rev-parse --show-toplevel)); python3 /workspaces/$rand5/api.py",
+    "postStartCommand": "rand5=$(basename $(git rev-parse --show-toplevel)); python3 /workspaces/$rand5/m.py",
     "customizations": {
         "vscode": {
             "settings": {
